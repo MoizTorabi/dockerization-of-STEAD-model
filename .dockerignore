@@ -1,0 +1,26 @@
+# .dockerignore File
+
+# Git
+.git
+.gitignore
+
+# Python virtual environment
+stead-env/
+venv/
+*.venv
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local data and output
+suspicious_clips/
+all_frames_live/
+npy_frames_live/
+*.mp4
+*.csv
+*.pkl
+
+# IDE / Editor folders
+.vscode/
+.idea/
