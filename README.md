@@ -47,7 +47,7 @@ HuggingFace Hub
 
 Cloud storage (Google Drive / S3)
 
-After downloading, place them inside:
+#### After downloading, place them inside:
         saved_models/
 
 ### Git & Model Artifacts Policy
