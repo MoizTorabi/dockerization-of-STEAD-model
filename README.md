@@ -39,6 +39,26 @@ Feature extraction code also available for modification
 #### Run Container
         docker run -it --rm stead-anomaly-detection
 
+### Pretrained Models
+Pretrained model weights are not stored in this repository.
+You can download them from:
+
+HuggingFace Hub
+
+Cloud storage (Google Drive / S3)
+
+After downloading, place them inside:
+        saved_models/
+
+### Git & Model Artifacts Policy
+This repository follows best ML engineering practices:
+
+No .pkl, .pth, .pt files committed
+
+Model artifacts are ignored via .gitignore
+
+Code-only, reproducible, and clean repository
+
 ## Citation
     @misc{gao2025steadspatiotemporalefficientanomaly,
           title={STEAD: Spatio-Temporal Efficient Anomaly Detection for Time and Compute Sensitive Applications}, 
